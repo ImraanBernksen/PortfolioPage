@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&family=Nanum+Pen+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+h2 {
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+h4, p, #CodePen_IMRAANBERNKSEN, #fill, #awe {
+    font-family: 'Alkalami', serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primaryColor: black;
+    --secondaryColor: lime;
+    --alternativeColor: black;
+    --gray: gold;
+    --mainBoxShadow: .5vw .5vw .5vw var(--alternativeColor);
+    --landingPage : .5vw 1vw .5vw var(--gray);
+    --activeLink: #00b061;
+}
+
+a:link {
+    background-color: var(--gray);
+    color: var(--primaryColor);
+}
+a:visited {
+    color: var(--alternativeColor);
+    border-radius: 5px;
+}
+a:hover {
+    font-size: 30px;
+    color: var(--secondaryColor);
+    background-color: blue;
+}
+a:active {
+    color: var(--primaryColor);
+    background-color: var(--activeLink);
+}
+
+header, main, footer {
+    min-width: 100%;
+}
+
+header {
+    background-color: black;
+    padding-bottom: 20px;
+}
+
+header, .menu-list {
+    display: inline-flex;
+}
+
+header img {
+    width: 5em;
+}
+
+.menu {
+    margin-left: auto;
+    align-self: center;
+}
+.menu-list li {
+  padding: 0 5px;
+}
+  
+.menu-list {
+    list-style: none;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding: 20px;
+}
+
+#home {
+    background-color: blue;
+}
+#portfolio {
+    background-color: #222831;
+}
+
+#skills {
+    background-color: #393e46;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#contact {
+    background-color: #ff5722;
+}
+
+#social-media {
+    background-color: #eeeeee;
+}
+
+.wrapper {
+    min-height: 100vh;
+    align-content: center;
+    padding-bottom: 20px;
+}
+.wrapper img{
+    display: block;
+    margin: 15px auto;
+    width: 30em;
+}
+.wrapper p {
+    text-align: center;
+}
+
+#portfolio {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#portfolio a {
+    padding: 0 5px;
+}
+
+#social-media a {
+    padding: 0 5px;
+}
+
+#contact {
+    text-align: center;
+    padding-bottom:20px;
+}
+
+#social-media {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.img {
+    border-radius: 50%;
+}
+
+.flip-box {
+    background-color: transparent;
+    width: 500px;
+    height:500px;
+    perspective: 1000px;
+    border-radius: 50%;
+}
+  
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+  
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-box-back {
+
+}
+
+.flip-box-back {
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 50%;
+}
