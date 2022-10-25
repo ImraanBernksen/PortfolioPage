@@ -8,9 +8,8 @@ h2 {
     font-family: 'Gemunu Libre', sans-serif;
 }
 
-h4, p, #CodePen_IMRAANBERNKSEN, #fill, #awe {
+h4, p, #CodePen_IMRAANBERNKSEN, .fill, #awe {
     font-family: 'Alkalami', serif;
-
 }
 
 *{
@@ -87,9 +86,6 @@ h1, h2, h3, h4, h5, h6 {
 #home {
     background-color: blue;
 }
-#portfolio {
-    background-color: #222831;
-}
 
 #skills {
     background-color: #393e46;
@@ -101,8 +97,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #ff5722;
 }
 
-#social-media {
-    background-color: #eeeeee;
+#social-media, #copyright {
+    background-color: #ccc
 }
 
 .wrapper {
@@ -122,6 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 #portfolio {
     text-align: center;
     padding-bottom: 20px;
+    background-color: #222831;
 }
 
 #portfolio a {
@@ -133,8 +130,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #contact {
-    text-align: center;
     padding-bottom:20px;
+}
+
+.info {
+    text-align: center;
 }
 
 #social-media {
@@ -158,7 +158,6 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     width: 100%;
     height: 100%;
-    text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
@@ -176,12 +175,87 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .flip-box-back {
-
-}
-
-.flip-box-back {
     background-color: black;
     color: white;
     transform: rotateY(180deg);
     border-radius: 50%;
+    padding-top: 225px;
+}
+
+.skill_level {
+    padding-bottom: 30px;
+}
+
+.skillsbar {
+    width: 50%;
+    background-color: #ddd;
+    margin-left: 350px;
+}
+
+.skills_html {
+    width: 80%;
+    background-color: red;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.skills_css {
+    width: 60%;
+    background-color: blue;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.skills_js {
+    width: 40%;
+    background-color: lime;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+input[type=text], input[type=number], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: black;
+    color:#ff5722;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: white;
+}
+  
+.fill {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Media Query */
+@media screen and (max-width: 720px){
+   body {
+    display: block;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   }
 }
