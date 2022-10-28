@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&family=Nanum+Pen+Script&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
 
 h2 {
     font-family: 'Gemunu Libre', sans-serif;
 }
 
-h4, p, #CodePen_IMRAANBERNKSEN, .fill, #awe {
+h4, p, #CodePen_IMRAANBERNKSEN, .fill, #social-media {
     font-family: 'Alkalami', serif;
 }
 
-*{
+*,
+::before,
+::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -73,7 +73,7 @@ header img {
   
 .menu-list {
     list-style: none;
-    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Gemunu Libre', sans-serif;
     font-size: 30px;
 }
 
@@ -84,27 +84,40 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #home {
-    background-color: blue;
+    background-color: #0700C4;
+}
+
+#about {
+    background-color: #0000FF;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#projects {
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: #0052FF;
 }
 
 #skills {
-    background-color: #393e46;
+    background-color: #007AFF;
     padding-bottom: 20px;
     text-align: center;
 }
 
-#contact {
-    background-color: #ff5722;
+#testimonial {
+    background-color: #00A3FF;
+    padding-bottom: 10px;
 }
 
-#social-media, #copyright {
-    background-color: #ccc
+#contact, #social-media, #copyright {
+    background-color: #00CCFF;
 }
 
 .wrapper {
     min-height: 100vh;
     align-content: center;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 .wrapper img{
     display: block;
@@ -115,13 +128,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-#portfolio {
-    text-align: center;
-    padding-bottom: 20px;
-    background-color: #222831;
-}
-
-#portfolio a {
+#projects a {
     padding: 0 5px;
 }
 
