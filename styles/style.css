@@ -6,7 +6,7 @@ h2 {
     font-family: 'Gemunu Libre', sans-serif;
 }
 
-h4, p, #CodePen_IMRAANBERNKSEN, .fill, #social-media {
+h4, p, #CodePen_IMRAANBERNKSEN, #fill, #social-media {
     font-family: 'Alkalami', serif;
 }
 
@@ -20,12 +20,12 @@ h4, p, #CodePen_IMRAANBERNKSEN, .fill, #social-media {
 
 :root {
     --primaryColor: black;
-    --secondaryColor: lime;
-    --alternativeColor: black;
-    --gray: gold;
+    --secondaryColor: black;
+    --alternativeColor: blue;
+    --gray: black;
     --mainBoxShadow: .5vw .5vw .5vw var(--alternativeColor);
     --landingPage : .5vw 1vw .5vw var(--gray);
-    --activeLink: #00b061;
+    --activeLink: lime;
 }
 
 a:link {
@@ -39,7 +39,7 @@ a:visited {
 a:hover {
     font-size: 30px;
     color: var(--secondaryColor);
-    background-color: blue;
+    background-color: gold;
 }
 a:active {
     color: var(--primaryColor);
@@ -52,7 +52,7 @@ header, main, footer {
 
 header {
     background-color: black;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 header, .menu-list {
@@ -99,6 +99,14 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #0052FF;
 }
 
+#projects li {
+    list-style: none;
+}
+
+#projectlinks li {
+    list-style: none;
+}
+
 #skills {
     background-color: #007AFF;
     padding-bottom: 20px;
@@ -107,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #testimonial {
     background-color: #00A3FF;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 #contact, #social-media, #copyright {
@@ -115,9 +123,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wrapper {
-    min-height: 100vh;
+    min-height: 90vh;
     align-content: center;
-    /* padding-bottom: 20px; */
 }
 .wrapper img{
     display: block;
@@ -196,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 .skillsbar {
     width: 50%;
     background-color: #ddd;
-    margin-left: 350px;
+    margin-left: 170px;
 }
 
 .skills_html {
@@ -217,8 +224,8 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
-.skills_js {
-    width: 40%;
+.skills_bs {
+    width: 70%;
     background-color: lime;
     text-align: right;
     padding-top: 10px;
@@ -226,43 +233,18 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
-input[type=text], input[type=number], textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-  
-input[type=submit] {
-    background-color: black;
-    color:#ff5722;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-  
-input[type=submit]:hover {
-    background-color: white;
-}
-  
-.fill {
-    border-radius: 5px;
-    padding: 20px;
+.skills_js {
+    width: 40%;
+    background-color: gold;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
 }
 
-/* Media Query */
-@media screen and (max-width: 720px){
-   body {
-    display: block;
-    list-style: none;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+@media screen and (max-width:720px) {
+    min-width: 300px;
+}
+body {
     width: 100%;
-   }
 }

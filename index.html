@@ -29,10 +29,10 @@
         <h2><ins>Home</ins></h2>
         <center>
         <div class="wrapper">
-          <div class="flip-box">
-            <div class="flip-box-inner">
-              <div class="flip-box-front">
-                <img class=img src="https://i.postimg.cc/hjFPFrLm/IMG-20220810-221420-027.jpg" alt="IMO">
+          <div class="flip-box img-fluid">
+            <div class="flip-box-inner img-fluid">
+              <div class="flip-box-front img-fluid">
+                <img class="img img-fluid" src="https://i.postimg.cc/hjFPFrLm/IMG-20220810-221420-027.jpg" alt="IMO">
               </div>
               <div class="flip-box-back">
                 <p>HELLO, WELCOME TO MY PORTFOLIO</p>
@@ -40,40 +40,55 @@
             </div>
           </div>
             <h4>Mogamad Imraan Bernksen</h4>
-            <a href="./assets/images/CV M1I0B.doc" target="_blank">Here's My CV</a>
         </div>
-        </center>
+      </center>
        </section>
       <!-- About -->
        <section id="about">
-        <h2>About</h2>
-        <div id="aboutmyself">
-        <p id="aboutinfo">Hello, I'm 20 years old and born in Cape Town, South Africa. I'm a IT student at Life Choices Academy amd want to have a job in software development in the future.</p>
-        <p>Graduated from Oaklands Highschool in 2020 then, after I did Grasshopper Coding Fundamentals I & II, Responsive Web Design Developer Certification and JavaScript Algorithms & Data Structures Certification.</p>
-        <p>I'm very mature for my age, friendly and hardworking. I've
+        <h2><ins>About</ins></h2>
+<div class="container-fluid">
+  <div class="row">       
+      <div class="col-lg-6">
+          <h4>About Me</h4>
+          <p class="lead text-dark">
+            Hello, I'm 20 years old and born in Cape Town, South Africa. I'm a IT student at Life Choices Academy amd want to have a job in software development in the future. Graduated from Oaklands Highschool in 2020 then, after I did some online courses. I'm very mature for my age, friendly and hardworking. I've
             always been interested in technology (phones and computers) and computer literate.
             I enjoy interacting and work with people. One of my most important attributes is
             responsibility, I appreciate being depended on and trustworthy. I will always go the
             extra mile and be helpful where I can.
-        <p id="education">
-          Education:              School Attended - Oaklands High
-          Grade Obtained - Graduated Grade 12 in 2020
-          Certifications
-
-Grasshopper Coding Fundamentals l - March 2022
-Grasshopper Coding Fundamentals II - March 2022
-Responsive Web Design Developer Certification  -  March 2022
-https://freecodecamp.org/certification/IMRAANBERNKSEN/responsive-web-design
-
-JavaScript  Algorithms and Data Structures Certification  - June 2022
-
-        </p>
+          </p>       
+        </div>
+      <div class="col-lg-6">
+          <h4>Education</h4>
+          <p class="lead text-dark">
+            School Attended: Oaklands High<br>
+           Grade Obtained: Graduated Grade 12 in 2020<br>
+           Studies: Life Choices Academy (currently enrolled) - since September 2022 <br>
+           Certifications:
+           Grasshopper Coding Fundamentals l - March 2022<br>
+           Grasshopper Coding Fundamentals II - March 2022<br>
+           Responsive Web Design Developer Certification -  March 2022<br>
+           JavaScript  Algorithms and Data Structures Certification - June 2022<br>
+          </p>
       </div>
+  </div>
+</div>
        </section>
        <!--Projects-->
        <section id="projects">
        <h2><ins>Projects</ins></h2>
-       <div>
+       <div class="container">
+        <div class="row">
+          <div class="col-1">
+          <div id="projectlinks">
+            <ul>
+           <li><a href="https://github.com/ImraanBernksen">Github</a></li>
+           <li><a href="https://app.netlify.com/sites/imraanbernksenrevision/overview">Netify</a></li>
+           <li><a href="https://codepen.io/IMRAANBERNKSEN">CodePen</a></li>
+          </ul>
+           </div>
+          </div>
+          <div class="col-11">
         <ul>
         <li><a id="CodePen_IMRAANBERNKSEN" class="project-tile" target="_blank" href="https://codepen.io/IMRAANBERNKSEN/pen/RwxPOpV">
             Tribute Page
@@ -99,36 +114,98 @@ JavaScript  Algorithms and Data Structures Certification  - June 2022
             Personal Portfolio Webpage
           </a></li>
         </ul>
+      </div>
        </div>
+      </div>
+      </div>
        </section>
        <!--Skills-->
        <section id="skills">
-       <h2><ins>Interests</ins></h2>
-       <p>My interests are coding, listening to music, playing soccer and designing clothing. Coding is so fun and challenging</p>
-       <p>because i get to creates a set of instructions for computers to follow, to determine what actions a computer can and cannot take.</p>
-       <p>I find technology innovating and so cool because there's so many aspects to it and there's limitless possibilities.</p>
-       <p>I love playing soccer so much because it's my favorite sport when i was growing up. As i grow up, my music taste has</p>
-       <p>gotten better and better as i discover more artists, different genres and music.</p>
-       <p>Another interest of mind is designing clothing, different graphics on t-shirts and hoodies like anime and various patterns.</p>
-       <h5>Skill Level:</h5>
-       <div class="skill_level">
-        <p>HTML</p>
-       <div class="skillsbar">
-       <div class="skills_html"></div>
-       </div>
-       <p>CSS</p>
-       <div class="skillsbar">
-       <div class="skills_css"></div>
-       </div>
-       <p>Bootstrap</p>
-       <div class="skillsbar">
-       <div class="skills_js"></div>
-       </div>
-       </div>
+       <h2><ins>Skills</ins></h2>
+<div class="container-fluid">
+  <div class="row">      
+      <div class="col-lg-6">
+          <h4>Interests</h4>
+          <p class="lead text-dark">
+            My interests are coding, listening to music, playing soccer and designing clothing. Coding is so fun and challenging because i get to creates a set of instructions for computers to follow, to determine what actions a computer can and cannot take. I find technology innovating and so cool because there's so many aspects to it and there's limitless possibilities. I love playing soccer so much because it's my favorite sport when i was growing up. As i grow up, my music taste has gotten better and better as i discover more artists, different genres and music. Another interest of mind is designing clothing, different graphics on t-shirts and hoodies like anime and various patterns.
+          </p>        
+     </div>
+      <div class="col-lg-6">
+          <h4>Skill Level</h4>
+          <p class="lead text-dark">
+            <div class="skill_level">
+              <p>HTML</p>
+             <div class="skillsbar">
+             <div class="skills_html"></div>
+             </div>
+             <p>CSS</p>
+             <div class="skillsbar">
+             <div class="skills_css"></div>
+             </div>
+             <p>Bootstrap</p>
+             <div class="skillsbar">
+             <div class="skills_bs"></div>
+             </div>
+             <p>JavaScript</p>
+             <div class="skillsbar">
+             <div class="skills_js"></div>
+            </div>
+            </div>
+          </p>
+      </div>
+  </div>
+</div>
        </section>
        <!-- Testimonial -->
        <section id="testimonial">
-        <h2>Testimonials</h2>
+        <h2><ins>Testimonials</ins></h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="https://i.postimg.cc/GpnnB2t6/IMG-20221031-WA0017.jpg" class="card-img-top" alt="pic1">
+              <div class="card-body bg-dark">
+                <h5 class="card-title text-white">Meezaan Davids</h5>
+                <p class="card-text text-white">Imraan seems like chill guy who likes to keep to himself. He is a smart person who likes to be challenged and very passionate about soccer. He is a good judge of character, determined and hardworking. Engage conversions and topics with an innovate mindset to things.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://i.postimg.cc/FK2KPmP4/person-icon.png" class="card-img-top" alt="pic2">
+              <div class="card-body">
+                <h5 class="card-title">Brogan Gys</h5>
+                <p class="card-text">He has five star skills when it come to soccer. Imraan is a very punctual person,  always on time. He is a very passionate person on the things he loves to do.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://i.postimg.cc/FK2KPmP4/person-icon.png" class="card-img-top" alt="pic3">
+              <div class="card-body">
+                <h5 class="card-title">Lindokuhle Mgoqi </h5>
+                <p class="card-text">Imo has a huge amount of dedication. He is always on time and he make sure that his job is done. He has a humble personality and a good approach.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://i.postimg.cc/FK2KPmP4/person-icon.png" class="card-img-top" alt="pic4">
+              <div class="card-body">
+                <h5 class="card-title">Konke Makubalo</h5>
+                <p class="card-text">He has displayed extraordinary potential of being a very talented full stack developer. Imraan ideas are unique, seems impossible but are amazing when executed.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://i.postimg.cc/FK2KPmP4/person-icon.png" class="card-img-top" alt="pic5">
+              <div class="card-body">
+                <h5 class="card-title">Kauthar Brandt</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
        </section>
        <!--Contact-->
        <section id="contact">
@@ -139,30 +216,37 @@ JavaScript  Algorithms and Data Structures Certification  - June 2022
            Gmail: imraanbernksen@gmail.com <br>
        </p>
        </div>
-         <h4>Fill in:</h4>
-       <div class="fill">
-        <form action="https://formspree.io/f/xbjbywjp" method="POST">
-            <label for="#firstname">Name:</label>
-            <input class="firstname" name="firstName" type="text" placeholder="Enter your name" required>
-        
-            <label for="#surname">Surname:</label>
-            <input class="surname" name="surname" type="text" placeholder="Enter your surname" required>
-        
-            <label for="#number">Cellphone Number:</label>
-            <input class="number" type="number" name="number" placeholder="Enter your number">
-        
-            <label for="#text">Gmail:</label>
-            <input class="text" type="text" name="gmail" placeholder="Enter your gmail">
-
-            <span>Male:</span> <input type="radio" name="gender">
-            <span>Female:</span> <input type="radio" name="gender">
-            <br>
-            <br>
-            <label for="#message">Message:</label>
-            <textarea class="subject" name="message" placeholder="Write something" cols="30" rows="10" style="height:200px" ></textarea>
-
-            <input type="submit" value="submit">
-        </form>
+       <div id="fill">
+       <h4 class="text-center">Fill in:</h4>
+       <form name="contact-form" action="https://formspree.io/f/xwkzrbbv" method="POST">
+       <div class="row">
+           <div class="col-6">
+             <label for="name" class="form-label">Name:</label>
+             <input type="text" name="name" class="form-control" placeholder="Name" aria-label="Name">
+           </div>
+           <div class="col-6">
+               <label for="name" class="form-label">Surname:</label>
+             <input type="text" name="name" class="form-control" placeholder="Surname" aria-label="Surname">
+           </div>
+           <div class="col-6">
+               <label for="number" class="form-label">Cellphone number:</label>
+               <input type="text" name="name" class="form-control" placeholder="Cellphone number" aria-label="Cellphone number">
+             </div>
+             <div class="col-6">
+               <label for="email" class="form-label">Email address:</label>
+               <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+             </div>
+             <div class="mb-3">
+               <label for="message" class="form-label">Message:</label>
+               <textarea class="form-control" name="message" id="exampleFormControlTextarea1" placeholder="Write something..." rows="3"></textarea>
+             </div>
+             <button type="submit" class="btn btn-primary">Submit</button>
+         </div>
+       </form>
+      </div>
+    </div>
+      <br>
+      <br>
         <div id="social-media">
      <i class="fa-brands fa-instagram"></i>
      <a id="M1I0B_Instagram" target="_blank" href="https://www.instagram.com/imraanbernksen">Instagram</a>
@@ -175,7 +259,7 @@ JavaScript  Algorithms and Data Structures Certification  - June 2022
      <i class="fa-brands fa-github"></i>
      <a id="M1I0B_GitHub" target="_blank" href="https://github.com/ImraanBernksen">GitHub</a> 
         </div>
-       </div>
+      </div>
        </section>
     </main>
     <footer id="copyright">
