@@ -6,7 +6,7 @@ h2 {
     font-family: 'Gemunu Libre', sans-serif;
 }
 
-h4, p, #CodePen_IMRAANBERNKSEN, #fill, #social-media {
+h4, p, #CodePen_IMRAANBERNKSEN, #fill, #social-media, #projects {
     font-family: 'Alkalami', serif;
 }
 
@@ -98,6 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #viewprojects li {
     list-style: none;
+    display: flex;
 }
 
 #skills {
@@ -180,8 +181,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .flip-box-back {
-    background-color: blue;
-    color: white;
+    background-color: grey;
+    color: black;
     transform: rotateY(180deg);
     border-radius: 50%;
     padding-top: 225px;
@@ -191,8 +192,13 @@ h1, h2, h3, h4, h5, h6 {
     background-attachment: fixed;
 }
 
+#M1I0B_ {
+    padding: 0 5px;
+    text-decoration: none;
+}
+
 @media screen and (min-width:300px) {
     body {
     width: 100%;
-}
+    }
 }
