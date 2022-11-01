@@ -9,17 +9,40 @@
     <title>Portfolio Page</title>
     <link rel="icon" href="https://i.postimg.cc/bwMSp4tp/BLACK-M1-I0-B-LOGO.jpg">
 </head>
-<body>
+<body id="picture" background="https://i.postimg.cc/6TJNPS6m/01.jpg">
     <header>   
-        <img class=logo src="https://i.postimg.cc/bwMSp4tp/BLACK-M1-I0-B-LOGO.jpg" alt="logo">
+        <img class="logo" src="https://i.postimg.cc/bwMSp4tp/BLACK-M1-I0-B-LOGO.jpg" alt="logo">
         <nav class="menu">
-            <ul class="menu-list"> 
-                <li><a id="home_" href="#home">Home</a></li>
-                <li><a id="about_" href="#about">About</a></li>
-                <li><a id="_projects" href="#projects">Projects</a></li>
-                <li><a id="skills_" href="#skills">Skills</a></li>
-                <li><a id="testimonial_" href="#testimonial">Testimonial</a></li>
-                <li><a id="contact_" href="#contact">Contact</a></li>
+            <ul class="menu-list">
+                <nav class="navbar navbar-expand-lg navbar navbar-light bg-black static-top">
+                  <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon bg-light"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link" id="home_" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="about_" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="projects_" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="skills_" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="testimonial_" href="#testimonial">Testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="contact_" href="#contact">Contact</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
             </ul>
         </nav>        
     </header>
@@ -50,7 +73,7 @@
   <div class="row">       
       <div class="col-lg-6">
           <h4>About Me</h4>
-          <p class="lead text-dark">
+          <p class="lead text-white">
             Hello, I'm 20 years old and born in Cape Town, South Africa. I'm a IT student at Life Choices Academy amd want to have a job in software development in the future. Graduated from Oaklands Highschool in 2020 then, after I did some online courses. I'm very mature for my age, friendly and hardworking. I've
             always been interested in technology (phones and computers) and computer literate.
             I enjoy interacting and work with people. One of my most important attributes is
@@ -60,12 +83,12 @@
         </div>
       <div class="col-lg-6">
           <h4>Education</h4>
-          <p class="lead text-dark">
-            School Attended: Oaklands High<br>
+          <p class="lead text-white">
+          School Attended: Oaklands High<br>
            Grade Obtained: Graduated Grade 12 in 2020<br>
            Studies: Life Choices Academy (currently enrolled) - since September 2022 <br>
-           Certifications:
-           Grasshopper Coding Fundamentals l - March 2022<br>
+           Certifications: <br>
+           Grasshopper Coding Fundamentals I - March 2022<br>
            Grasshopper Coding Fundamentals II - March 2022<br>
            Responsive Web Design Developer Certification -  March 2022<br>
            JavaScript  Algorithms and Data Structures Certification - June 2022<br>
@@ -77,18 +100,14 @@
        <!--Projects-->
        <section id="projects">
        <h2><ins>Projects</ins></h2>
-       <div class="container">
-        <div class="row">
-          <div class="col-1">
-          <div id="projectlinks">
+          <div id="viewprojects">
             <ul>
            <li><a href="https://github.com/ImraanBernksen">Github</a></li>
            <li><a href="https://app.netlify.com/sites/imraanbernksenrevision/overview">Netify</a></li>
            <li><a href="https://codepen.io/IMRAANBERNKSEN">CodePen</a></li>
           </ul>
            </div>
-          </div>
-          <div class="col-11">
+        <div id="projectlinks">
         <ul>
         <li><a id="CodePen_IMRAANBERNKSEN" class="project-tile" target="_blank" href="https://codepen.io/IMRAANBERNKSEN/pen/RwxPOpV">
             Tribute Page
@@ -115,9 +134,6 @@
           </a></li>
         </ul>
       </div>
-       </div>
-      </div>
-      </div>
        </section>
        <!--Skills-->
        <section id="skills">
@@ -126,32 +142,28 @@
   <div class="row">      
       <div class="col-lg-6">
           <h4>Interests</h4>
-          <p class="lead text-dark">
+          <p class="lead text-white">
             My interests are coding, listening to music, playing soccer and designing clothing. Coding is so fun and challenging because i get to creates a set of instructions for computers to follow, to determine what actions a computer can and cannot take. I find technology innovating and so cool because there's so many aspects to it and there's limitless possibilities. I love playing soccer so much because it's my favorite sport when i was growing up. As i grow up, my music taste has gotten better and better as i discover more artists, different genres and music. Another interest of mind is designing clothing, different graphics on t-shirts and hoodies like anime and various patterns.
           </p>        
      </div>
       <div class="col-lg-6">
           <h4>Skill Level</h4>
-          <p class="lead text-dark">
-            <div class="skill_level">
-              <p>HTML</p>
-             <div class="skillsbar">
-             <div class="skills_html"></div>
-             </div>
-             <p>CSS</p>
-             <div class="skillsbar">
-             <div class="skills_css"></div>
-             </div>
-             <p>Bootstrap</p>
-             <div class="skillsbar">
-             <div class="skills_bs"></div>
-             </div>
-             <p>JavaScript</p>
-             <div class="skillsbar">
-             <div class="skills_js"></div>
-            </div>
-            </div>
-          </p>
+          <p class="text-white">HTML</p>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <p class="text-white">CSS</p>
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <p class="text-white">BOOTSTRAP</p>
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <p class="text-white">JAVASCRIPT</p>
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
       </div>
   </div>
 </div>
@@ -159,18 +171,18 @@
        <!-- Testimonial -->
        <section id="testimonial">
         <h2><ins>Testimonials</ins></h2>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="row row-cols-md-12 g-4 mx-4">
           <div class="col">
-            <div class="card">
+            <div class="card h-100">
               <img src="https://i.postimg.cc/GpnnB2t6/IMG-20221031-WA0017.jpg" class="card-img-top" alt="pic1">
-              <div class="card-body bg-dark">
-                <h5 class="card-title text-white">Meezaan Davids</h5>
-                <p class="card-text text-white">Imraan seems like chill guy who likes to keep to himself. He is a smart person who likes to be challenged and very passionate about soccer. He is a good judge of character, determined and hardworking. Engage conversions and topics with an innovate mindset to things.</p>
+              <div class="card-body">
+                <h5 class="card-title">Meezaan Davids</h5>
+                <p class="card-text">Imraan seems like chill guy who likes to keep to himself. He is a smart person who likes to be challenged and very passionate about soccer. He is a good judge of character, determined and hardworking. Engage conversions and topics with an innovate mindset to things.</p>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card h-100">
               <img src="https://i.postimg.cc/FK2KPmP4/person-icon.png" class="card-img-top" alt="pic2">
               <div class="card-body">
                 <h5 class="card-title">Brogan Gys</h5>
@@ -179,7 +191,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card h-100">
               <img src="https://i.postimg.cc/FK2KPmP4/person-icon.png" class="card-img-top" alt="pic3">
               <div class="card-body">
                 <h5 class="card-title">Lindokuhle Mgoqi </h5>
@@ -188,7 +200,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card h-100">
               <img src="https://i.postimg.cc/FK2KPmP4/person-icon.png" class="card-img-top" alt="pic4">
               <div class="card-body">
                 <h5 class="card-title">Konke Makubalo</h5>
@@ -197,11 +209,11 @@
             </div>
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card h-100">
               <img src="https://i.postimg.cc/FK2KPmP4/person-icon.png" class="card-img-top" alt="pic5">
               <div class="card-body">
                 <h5 class="card-title">Kauthar Brandt</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">Imraan is a friendly individual and a pleasure to work with because of his supporting attributes. He encourages his peers to do their best, which allows him to work with any social group, which proves effective in group projects. His very knowledgeable on any topic, so it's always lovely to engage in conversion with him.</p>
               </div>
             </div>
           </div>
@@ -210,16 +222,10 @@
        <!--Contact-->
        <section id="contact">
        <h2><ins>Contact</ins></h2>
-       <div class="info">
-       <p>Address: 7 Chilli Street, Highlands Estate, Philippi <br>
-           Cellphone Number: 0681278921 <br>
-           Gmail: imraanbernksen@gmail.com <br>
-       </p>
-       </div>
        <div id="fill">
-       <h4 class="text-center">Fill in:</h4>
+       <!-- <h4 class="text-center">Fill in:</h4> -->
        <form name="contact-form" action="https://formspree.io/f/xwkzrbbv" method="POST">
-       <div class="row">
+       <div class="row mx-4">
            <div class="col-6">
              <label for="name" class="form-label">Name:</label>
              <input type="text" name="name" class="form-control" placeholder="Name" aria-label="Name">
@@ -245,7 +251,14 @@
        </form>
       </div>
     </div>
-      <br>
+    <br>
+    <br>
+    <div class="info">
+      <p class="lead">Address: 7 Chilli Street, Highlands Estate, Philippi <br>
+          Cellphone Number: 0681278921 <br>
+          Gmail: imraanbernksen@gmail.com <br>
+      </p>
+      </div>
       <br>
         <div id="social-media">
      <i class="fa-brands fa-instagram"></i>
