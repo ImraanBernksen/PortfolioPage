@@ -19,7 +19,7 @@ h4, p, .project-tile, #fill, #social-media, #projects {
 }
 
 :root {
-    --primaryColor: black;
+    --primaryColor: blue;
     --secondaryColor: black;
     --alternativeColor: blue;
     --mainBoxShadow: .5vw .5vw .5vw var(--alternativeColor);
@@ -28,7 +28,7 @@ h4, p, .project-tile, #fill, #social-media, #projects {
 }
 
 a:link {
-    color: red;
+    color: var(--primaryColor);
 }
 a:visited {
     color: var(--alternativeColor);
