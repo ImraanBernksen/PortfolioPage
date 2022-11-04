@@ -53,12 +53,8 @@ header {
     padding-bottom: 10px;
 }
 
-header, .menu-list {
-    display: inline-flex;
-}
-
 .logo {
-    width: 4em;
+    width: 2em;
 }
 
 .menu {
