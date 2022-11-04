@@ -28,7 +28,7 @@ h4, p, .project-tile, #fill, #social-media, #projects {
 }
 
 a:link {
-    color: var(--primaryColor);
+    color: red;
 }
 a:visited {
     color: var(--alternativeColor);
