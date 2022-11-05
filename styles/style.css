@@ -139,6 +139,13 @@ h4 {
     padding: 0 5px;
 }
 
+.project-tile {
+    text-shadow: 0 0 8px black;
+}
+
+.about-par{
+    text-align: start;
+}
 #social-media a {
     padding: 0 5px;
 }
